@@ -49,7 +49,7 @@ const router=createBrowserRouter([
    },
    {
     path:'/user',
-    loader:()=>fetch('http://localhost:5000/user'),
+    loader:()=>fetch('https://phone-server-fqpp79zw6-tanjils-projects.vercel.app/user'),
     element:<User></User>
    }
 

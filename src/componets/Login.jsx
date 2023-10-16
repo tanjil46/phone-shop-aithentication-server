@@ -26,7 +26,7 @@ const Logine = () => {
      const user={email,loginAt}
 
      
-  fetch('http://localhost:5000/user',{
+  fetch('https://phone-server-fqpp79zw6-tanjils-projects.vercel.app/user',{
     method:'PATCH',
     headers:{
       'content-type':'application/json'

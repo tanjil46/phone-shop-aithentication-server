@@ -34,7 +34,7 @@ const resisterHandler=e=>{
   const user={email,singUpAt}
 
  
-  fetch('http://localhost:5000/user',{
+  fetch('https://phone-server-fqpp79zw6-tanjils-projects.vercel.app/user',{
     method:'POST',
     headers:{
       'content-type':'application/json'
